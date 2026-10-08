@@ -1,0 +1,6 @@
+{
+  "name": "AgentAccess – Context-Aware Authorization Gateway for AI Agents",
+  "description": "Context-aware enterprise security and authorization gateway for personalized AI agents, enforcing real-time deterministic policy evaluation, risk scoring, and human-in-the-loop approvals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

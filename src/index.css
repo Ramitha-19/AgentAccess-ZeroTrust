@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+    --dual-primary: #2563eb;
+    --dual-secondary: #1d4ed8;
+  }
+
+  body {
+    font-family: var(--font-sans);
+  }
+
+  code, pre, .font-mono {
+    font-family: var(--font-mono);
+  }
+}
+
+/* Professional White & Blue Corporate Styles */
+.dual-gradient-bg {
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+}
+
+.dual-gradient-surface {
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.04), rgba(29, 78, 216, 0.04));
+}
+
+.dual-gradient-text {
+  color: #1d4ed8;
+}
+
+.dual-border-glow {
+  border: 1px solid rgba(37, 99, 235, 0.25);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.35);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.55);
+}
